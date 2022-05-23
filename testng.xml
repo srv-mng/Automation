@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="url" value="chrome"/>
+    <parameter name="usrid" value="12345"/>
+    <parameter name="paswd" value="12345"/>
+    <parameter name="name" value="abc"/>
+    <parameter name="creditCrd" value="123456789123"/>
+    <parameter name="browser" value="https://www.demoblaze.com/"/>
+    <test verbose="2" preserve-order="true" name="C:/Users/mongasourav/IdeaProjects/DemoBlaze">
+
+                <classes>
+                    <class name="DemoBlaze"/>
+                </classes>
+
+    </test>
+</suite>
